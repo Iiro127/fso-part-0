@@ -9,7 +9,7 @@ sequenceDiagram
     Note right of browser: User sends data to the server
     activate server
     Note left of server: Data is saved
-    server-->>browser: HTTP 302 Found redirect to https://studies.cs.helsinki.fi/exampleapp/notes
+    server-->>browser: HTTP 302: Redirect to https://studies.cs.helsinki.fi/exampleapp/notes
     deactivate server
     Note right of browser: HTTP 302: Request was successful, user is redirected
 
